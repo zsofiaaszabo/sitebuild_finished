@@ -68,6 +68,7 @@ section {
   max-width: 500px;
   width: 100%;
   max-height: 800px;
+  border: 40px;
 }
 
 .text-wrapper1 {
