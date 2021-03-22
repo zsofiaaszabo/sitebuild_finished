@@ -1,0 +1,108 @@
+$background: #22b573;
+$dark: #1c1717;
+$light: #f2f2f2;
+$yellowish: #e2b852;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+body {
+  background-color: $background;
+}
+.navbar.navbar-1 .navbar-toggler-icon {
+  position: absolute;
+  top: 10px;
+  right: 30px;
+  background-image: url("https://mdbcdn.b-cdn.net/img/svg/hamburger6.svg?color=000");
+}
+
+.navbar {
+  justify-content: center;
+  position: relative;
+}
+h1 {
+  font-size: 50px;
+  color: $light;
+  letter-spacing: 3px;
+}
+h4 {
+  font-size: 1rem;
+  color: $yellowish;
+  padding: 10px 0 0;
+}
+
+p {
+  font-size: 0.9rem;
+  padding: 20px 0 20px;
+}
+
+section {
+  height: 100vh;
+  background-color: $background;
+}
+.big-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 40px;
+}
+.header-wrapper {
+  padding-bottom: 20px;
+}
+.button-wrapper {
+  max-width: 500px;
+  width: 100%;
+  max-height: 800px;
+}
+.text-wrapper1 {
+  background-color: black;
+}
+.text-wrapper1 p {
+  color: white;
+}
+.text-wrapper2 {
+  position: relative;
+  background-color: white;
+}
+.text-wrapper3 {
+  background-color: $dark;
+}
+
+.text-wrapper {
+  padding: 10px;
+  height: 380px;
+}
+
+.btn {
+  background-color: $background;
+  border: 0;
+  color: rgb(206, 153, 55);
+  font-weight: bolder;
+}
+.btn:hover {
+  background-color: $background;
+}
+
+@media screen and (max-width: 900px) {
+  .big-wrapper {
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 40px;
+    padding: 20px 40px;
+  }
+
+  .button-wrapper {
+    max-width: 280px;
+    width: 100%;
+    max-height: 320px;
+    margin: 50px;
+  }
+  section {
+    height: auto;
+  }
+}
